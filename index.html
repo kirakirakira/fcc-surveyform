@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="title">What types of mom blogs are you interested in?</h1>
+    <p id="description">I am going to start a blog and in order to write about topics that you care about. I would like to know what you are most interested in reading.</p>
+
+    <form id="survey-form">
+      <label id="name-label">Name: </label><input type="text" name="name" id="name" placeholder="Name" required><br>
+      <label id="email-label">Email: </label><input type="email" name="email" id="email" placeholder="Email" required><br><br>
+      <!-- <label id="number-label">How many kids do you have?</label><input type="number" id="number" min="0" max="9999" step="1" placeholder="0"><br> -->
+      <label id="role">Which best describes your current role?</label><br>
+      <select name="cars" id="dropdown">
+        <option value="sahm">Stay at home mom (no paid work)</option>
+        <option value="wahm">Work at home mom (work+child care)</option>
+        <option value="wohm">Work outside of home mom</option>
+        <option value="gmagpa">Raising grandchildren</option>
+        <option value="ptm">Part-time mom</option>
+        <option value="dad">I'm a dad!</option>
+      </select><br><br>
+      <label id="religion">Which best describes your religious beliefs?</label><br>
+        <input type="radio" name="religion" value="atheist"> Atheist<br>
+        <input type="radio" name="religion" value="agnostic"> Agnostic<br>
+        <input type="radio" name="religion" value="devout"> Devout<br>
+        <input type="radio" name="religion" value="occasional"> Occasional church/temple/synagogue goer<br>
+        <input type="radio" name="religion" value="holidays"> Only on the holidays<br>
+        <input type="radio" name="religion" value="spiritual"> Spiritual<br>
+        <input type="radio" name="religion" value="god"> I believe in God, but that's about it.<br>
+      </select><br>
+      <label id="interests">Check which topic(s) you'd like to read about.</label><br>
+        <input type="checkbox" name="interests" value="pregnancy"> Pregnancy<br>
+        <input type="checkbox" name="interests" value="birth"> Birth<br>
+        <input type="checkbox" name="interests" value="infants"> Infants<br>
+        <input type="checkbox" name="interests" value="toddlers"> Toddlers<br>
+        <input type="checkbox" name="interests" value="learning"> Learning<br>
+        <input type="checkbox" name="interests" value="play"> Play<br>
+        <input type="checkbox" name="interests" value="schools"> Schools<br>
+        <input type="checkbox" name="interests" value="food"> Food<br>
+        <input type="checkbox" name="interests" value="parties-holidays"> Parties/Holidays<br>
+        <input type="checkbox" name="interests" value="vacations"> Vacations<br>
+      </select><br>
+      <label id="comments">Please enter in any other comments or ideas.</label><br>
+      <textarea name="comments" form="survey-form" rows="4" cols="50">Enter text here...</textarea><br>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  background-color: powderblue;
+  font-family: 'Krub', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#survey-form {
+  background-color: white;
+  padding: 25px;
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+#description {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+  padding: 0 20px 20px 20px;
+}
+
+#name, #email {
+  margin: 5px 0;
+}
+
+#role, #religion, #interests {
+  margin: 25px 0;
+}
